@@ -2,20 +2,25 @@
 languageCode = "en"
 defaultContentLanguage = "en"
 
-title = "Patrick Wan - Digital Card"
-# copyright = "Copy, _right?_ :thinking_face:"
+title = "Patrick Wan"
+copyright = "© Copy, _right?_ :thinking_face:"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
 [author]
-  # name = "Patrick "Pat" Wan"
-  # headline = "An awesome person"
-  # image = "img/me.jpg"  # path relative to static directory
+  name = "Patrick Wan"
+  headline = "Distributor Partnerships at Microsoft, based in Sydney 🦘"
+
+  image = "me.jpg"  # path relative to static directory
 
   links = [
-    # { email = "mailto:hello@patrickwan.com" },
-    # { link = "https://link-to-some-website.com/" },
+    
+    { microsoft = { href = "https://aka.ms/findtimewithpatrick", text = "Set up a Teams/face-to-face meeting" } },
+    { whatsapp = "https://wa.me/+61421176599" },
+    # { sms = { href = "sms://+61421176599/&body=Hi%20Pat%20%40%20Microsoft%2C%20I'm%20%3CNAME%3E%20from%20%3CCOMPANY%3E%2C%20looking%20to%20call%20you%20about%20%3CSUBJECT%3E.%20I'm%20free%20at%20%3CAVAILABILITY%3E.%20Thanks!", text = "Text Me" } },
+    { apple = { href = "https://raw.githubusercontent.com/patwan112/patwan112.github.io/main/files/Contact%20-%20Patrick%20Wan%2C%20Microsoft%20ANZ.vcf", text = "iPhone - Download my Contact Card", icon = "Apple" } },
+    { google = { href = "https://smh.com.au", text = "Android - Download my Contact Card", icon = "Google" } },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
     # { codepen = "https://codepen.io/username" },
@@ -32,10 +37,10 @@ disableKinds = ["taxonomy", "term"]
     # { keybase = "https://keybase.io/username" },
     # { kickstarter = "https://www.kickstarter.com/profile/username" },
     # { lastfm = "https://lastfm.com/user/username" },
-    # { linkedin = "https://linkedin.com/in/username" },
+    { linkedin = "https://www.linkedin.com/in/patrick-wan/" },
     # { mastodon = "https://mastodon.instance/@username" },
     # { medium = "https://medium.com/username" },
-    # { microsoft = "https://www.microsoft.com/" },
+    
     # { patreon = "https://www.patreon.com/username" },
     # { pinterest = "https://pinterest.com/username" },
     # { reddit = "https://reddit.com/user/username" },
@@ -50,7 +55,9 @@ disableKinds = ["taxonomy", "term"]
     # { tumblr = "https://username.tumblr.com" },
     # { twitch = "https://twitch.tv/username" },
     # { twitter = "https://twitter.com/username" },
-    # { whatsapp = "https://wa.me/phone-number" },
+    
+    { email = { href = "mailto:hello@patrickwan.com", text = "Email" } },
+    { instagram = { href = "", text = "My recent images" } },
     # { youtube = "https://youtube.com/username" },
   ]
 
